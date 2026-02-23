@@ -16,7 +16,7 @@ The repository includes:
 - Example notebook for running experiments
 
 Repository structure
-
+```perl
 utils
   ├── model_runner.py           # Main inference logic  
   ├── model_loader.py           # Main retrieving 
@@ -32,5 +32,5 @@ stan_code
 ├── example.ipynb             # Example experiment  
 ├── results/                  # Output directory (generated automatically)  
 └── README.md  
-
+```
 
