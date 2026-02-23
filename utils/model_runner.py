@@ -1,8 +1,8 @@
 # utils/model_runner.py
 def run_regression_model(model_name, config_name, X_train, X_test, y_train, y_test, args):
     from cmdstanpy import CmdStanModel
-    from stan_data_generator import make_stan_data
-    from io_helpers import save_metadata
+    from utils.stan_data_generator import make_stan_data
+    from utils.io_helpers import save_metadata
     import os, shutil
     import numpy as np
     
@@ -54,8 +54,8 @@ def run_regression_model(model_name, config_name, X_train, X_test, y_train, y_te
 
 def run_classification_model(model_name, config_name, X_train, X_test, y_train, y_test, args):
     from cmdstanpy import CmdStanModel
-    from stan_data_generator import make_stan_data
-    from io_helpers import save_metadata
+    from utils.stan_data_generator import make_stan_data
+    from utils.io_helpers import save_metadata
     import os, shutil
     import numpy as np
     
@@ -106,8 +106,8 @@ def run_classification_model(model_name, config_name, X_train, X_test, y_train, 
 
 def run_prior_model(model_name, config_name, X_train, X_test, y_train, args):
     from cmdstanpy import CmdStanModel
-    from stan_data_generator import make_stan_data
-    from io_helpers import save_metadata
+    from utils.stan_data_generator import make_stan_data
+    from utils.io_helpers import save_metadata
     import os, shutil
     import numpy as np
     
