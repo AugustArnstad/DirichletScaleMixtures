@@ -32,5 +32,7 @@ stan_code
 
 ## Contact
 August Arnstad
+
 augusa@uio.no
+
 University of Oslo, Norway
