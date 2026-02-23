@@ -1,5 +1,5 @@
 # DirichletScaleMixtures
-This repository contains the code accompanying the article "Dirichlet Scale Mixture priors for BNNs".
+This repository contains the code accompanying the article "Dirichlet Scale Mixture priors for BNNs". This repo is a distilled version of the full code repo 'shrinkage_priors_in_BNNs', to make it easier for interested people to see how it works.
 
 ## Overview
 
