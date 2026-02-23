@@ -1,10 +1,5 @@
 # DirichletScaleMixtures
-This repository contains the code accompanying the article
-
-Dirichlet Scale Mixture priors for BNNs
-by authors
-August Arnstad, Leiv Rønneberg, Geir Storvik
-affiliated with the University of Oslo and Integreat, the Norwegian center for knowledge driven machine learning.
+This repository contains the code accompanying the article "Dirichlet Scale Mixture priors for BNNs".
 
 ## Overview
 
@@ -34,3 +29,8 @@ stan_code
 └── README.md  
 ```
 
+
+## Contact
+August Arnstad
+augusa@uio.no
+University of Oslo, Norway
